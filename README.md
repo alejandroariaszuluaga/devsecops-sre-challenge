@@ -27,8 +27,7 @@ Se implementó el código de Terraform encargado de la creación de una base de 
 
 Para el despliegue de la aplicación en AWS, se propone utilizar Terraform Cloud, tanto el API Gateway como la función Lambda son implementables mediante Terraform. Terraform Cloud facilita la conexión entre operaciones de Git y `terraform apply` de forma automática, ya sea a través de Pull Requests o Push directos a la rama.
 
-![Diagrama de recursos](https://github.com/alejandroariaszuluaga/devsecops-sre-challenge/blob/feat/update-readme/architeture.drawio.png?raw=true)
-
+![Diagrama de recursos](images/architecture.drawio.png)
 
 ## Parte 3: Pruebas de Integración y Puntos Críticos de Calidad
 
