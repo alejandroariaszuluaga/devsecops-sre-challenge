@@ -65,6 +65,15 @@ module "helm_charts" {
         }
       ]
     }
+
+    "postgresql" = {
+      repository  = "oci://registry-1.docker.io/bitnamicharts/postgresql"
+      chart       = "postgresql"
+      namespace   = "postgresql"
+      version     = "15.2.8"
+      values      = []
+      sets        = []
+    }
   }
 
   // Kubernetes manifests
